@@ -1,0 +1,180 @@
+*{
+	margin:0;
+}
+/*.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }*/
+ .panel-color{
+ 	background-color: #202033;
+ 	padding-bottom: 5px;
+ 	border-radius:6px 6px 0px 0px;
+ 	position: relative;
+ }
+ .panel-footer{
+  background:no-repeat;
+  background-image:url(../../../storage/logo/logo.png);
+  background-position: 70px bottom;
+  background-size:200px;
+	background-color: #202033;
+	color:#fff;
+  position: absolute;
+	text-align: right;
+	padding: 70px 90px;
+  width: 100%;
+
+}
+#navbar {
+  overflow: visible;
+  z-index: 1;
+}
+.navbar{
+	border-bottom-style: solid;
+  	border-bottom-color: #EC4949;
+  	border-bottom-width: 5px;
+}
+
+ .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.garis{
+	background-color: #EC4949;
+	text-align: center;
+}
+ .garis-menu{	
+ 	width: 180px;
+	height: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+ }
+ nav ul li div ul{
+ 	display: none;	
+ 	position: absolute;
+ 	background-color: #F9F9F9;
+ 	z-index:1;
+ 	border-radius:0px 0px 4px 4px;
+ }
+ nav ul li:hover {
+ 	background-color: #12121C;
+ }
+  nav ul li:hover ul{
+ 	display: block;
+ }
+
+ nav ul li ul li a{
+ 	margin-bottom: 10px;
+
+ }
+  nav ul li ul li a:hover{
+ 	background-color: #777;
+ 	z-index: 1;
+ }
+ /*update*/
+ .form-item{
+ 	background-color: #fff;
+ 	padding-top: 30px;
+ 	margin-bottom: 10px;
+  padding-bottom: 20px;
+ 	width: 80%;
+  margin-top: 20px;
+	word-wrap: break-word;
+ }
+
+ .jumbotron{
+ 	text-align: center;
+ }
+ /*update*/
+ .jumbotron>img{
+  max-width: 240px;
+  max-height: 240px;
+  border-radius: 50%;
+  min-height: 240px;
+  min-width: 240px;
+ }
+ 
+ 
+ #item>img{
+ 	float: left;
+ 	max-width: 330px;
+ 	max-height: 343px;
+ 	padding: 10px;
+ 	border:1px solid;
+ 	border-radius: 5px;
+ 	position: relative;
+  margin:5px 20px 12px 10px;
+ }
+ /*update*/
+ .layout-item{
+  float:right;
+  width: 50%;
+  margin-right: 30px;
+ }
+ .layout-item-nominal-jumlah{
+  padding-bottom: 20px; 
+ }
+.layout-item-nama{
+  border-bottom: 2px solid;
+}
+ .view-product-order{
+ 	max-width: 230px;
+ 	max-height: 243px;
+ 	margin-bottom: 150px;
+ }
+  .view-product-order:hover{
+ 	max-width: 270px;
+ 	max-height: 263px;
+ 	margin-bottom: 150px;
+ }
+.navbar-right{
+	margin-right: 5px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #e1e1e1;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+}
+
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+.prev-arrow{
+  left: -40px;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.next-arrow{
+  right: -40px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 15px solid #113463;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.batas-img{
+	display: block;
+	max-width: 80%;
+	height: auto;
+}
+
+.margin-h1{
+	margin-left: 50px;
+}
+
+.gambar-pamflet{
+	width: 100%;
+}

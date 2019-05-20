@@ -1,0 +1,24 @@
+.warna{
+    color: white;
+}
+
+.warna:hover, .warna:visited{
+    color: white;
+}
+
+.head-kanan{
+    color: white;
+    margin-right: 40px;
+}
+
+.head-kanan:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.head-kanan:link, .head-kanan:visited, .head-kanan:active{
+    color: white;
+}
+
+.resize{
+    width: 100px;
+}
